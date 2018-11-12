@@ -1,5 +1,6 @@
 def my_collect(collection)
-  i = 0 
+  i = 0
+  new_collection = []
   while i < collection.length 
     yield collection[i]
     i += 1 
@@ -8,5 +9,5 @@ def my_collect(collection)
 end
 
 my_collect do |item|
- puts item
+ new_collection << item
 end

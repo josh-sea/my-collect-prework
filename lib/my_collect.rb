@@ -7,7 +7,3 @@ def my_collect(collection)
   end
   collection
 end
-
-my_collect do |item|
- new_collection << item
-end

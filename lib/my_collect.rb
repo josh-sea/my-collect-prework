@@ -7,5 +7,5 @@ def my_collect(collection)
 end
 
 my_collect(collection) do |item|
-
+ puts item
 end

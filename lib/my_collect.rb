@@ -6,6 +6,6 @@ def my_collect(collection)
   end
 end
 
-my_collect(collection) do |item|
+my_collect do |item|
  puts item
 end
